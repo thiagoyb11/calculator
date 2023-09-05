@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Using JavaScript</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -17,7 +20,7 @@
                     <input type="button" value="AC"  onclick="display.value = '' " class="operator">
                     <input type="button" value="DE"  onclick="display.value =  display.value.toString().slice (0, -1)" class="operator">
                     <input type="button" value="."  onclick="display.value += '.' " class="operator">
-                    <input type="button" value="&divide;"  onclick="display.value += '&divide;' " class="operator">
+                    <input type="button" value="&divide;"  onclick="display.value += '/' " class="operator">
 
                 </div>
                 <div>
